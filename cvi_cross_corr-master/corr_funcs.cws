@@ -32,7 +32,7 @@ Save Changes Before Compiling = "Always"
 Hide Windows = False
 Break At First Statement = False
 Sort Type = "File Name"
-Number of Opened Files = 2
+Number of Opened Files = 3
 Window Confinement Region Enabled = True
 MainColumnWidth = 269
 FileDateColumnWidth = 70
@@ -64,8 +64,8 @@ Disk Date = 3594561772
 In Projects = "1,"
 Window Top = 157
 Window Left = 74
-Window Z-Order = 1
-Source Window State = "1,53,53,53,96,112,112,0,0,192,0,0,0,0,0,60,3,0,53,95,349,683,1,0,"
+Window Z-Order = 2
+Source Window State = "1,53,53,53,96,112,112,0,0,80,0,0,0,0,0,25,3,0,53,95,349,683,1,0,"
 
 [File 0002]
 Path = "/c/Users/bspoka/Downloads/lvoop_dll-master/cvi_test/test.c"
@@ -74,7 +74,7 @@ Disk Date = 3589537906
 In Projects = "2,"
 Window Top = 126
 Window Left = 58
-Window Z-Order = 2
+Window Z-Order = 3
 Source Window State = "1,67,67,67,10,29,10,0,0,84,0,0,0,0,0,25,19,0,45,23,349,715,1,0,"
 
 [File 0003]
@@ -85,12 +85,15 @@ Disk Date = 3594562297
 In Projects = "1,"
 Window Top = 126
 Window Left = 58
-Source Window State = "1,351,351,351,12,25,25,0,0,0,0,2,0,2,0,0,332,0,354,94,349,683,1,0,"
+Window Z-Order = 1
+Source Window State = "1,351,351,351,12,25,25,0,0,192,0,2,0,2,0,60,338,0,370,44,349,683,1,0,"
 
 [Tab Order]
 Tab 0001 = "/c/Users/bspoka/Downloads/lvoop_dll-master/cvi_test/test.c"
 Tab 0002 Line0001 = "/c/Users/bspoka/Dropbox (MIT)/LincolnData/Sophie_Boris/Matlab_Scripts/cvi_cross_"
 Tab 0002 Line0002 = "corr-master/picoquant_corr.h"
+Tab 0003 Line0001 = "/c/Users/bspoka/Dropbox (MIT)/LincolnData/Sophie_Boris/Matlab_Scripts/cvi_cross_"
+Tab 0003 Line0002 = "corr-master/picoquant_corr.c"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

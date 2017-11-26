@@ -10,5 +10,7 @@ tic()
     'picoquant_g2_corr', ch1, ch2, num_ch1, num_ch2, ps_range,...
     num_points, offset_lag, acf, lags);
 toc()
+lags = lags(1:end-1);
+acf = acf(1:end-1);
 
 end
