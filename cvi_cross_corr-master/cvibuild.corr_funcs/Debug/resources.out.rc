@@ -1,0 +1,52 @@
+#include "C:\Program Files (x86)\National Instruments\Shared\MSDTRedistributables\SDKHeaderFiles\8.1\winver.h"
+
+
+2 24 "c:\\Users\\bspoka\\Downloads\\lvoop_dll-master\\cvi_project\\cvibuild.corr_funcs\\Debug\\manifest.xml"
+
+
+STRINGTABLE DISCARDABLE
+BEGIN
+  65535  ""
+END
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0x1L
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_DLL
+ FILESUBTYPE VFT_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Microsoft\0"
+            VALUE "FileDescription", "corr_funcs (Debug x86)\0"
+            VALUE "FileVersion", "1.0\0"
+            VALUE "InternalName", "corr_funcs\0"
+            VALUE "LegalCopyright", "Copyright  Microsoft 2017\0"
+            VALUE "OriginalFilename", "corr_funcs.dll\0"
+            VALUE "ProductName", "Microsoft corr_funcs\0"
+            VALUE "ProductVersion", "1.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 0x4b0
+    END
+END
+
+CVIDLLexports CVIDLLprototypes
+{
+   "void picoquant_generate_log_lags(double t_end, double coarseness, double *lag_bin_edges, double *lags, double *division_factor, int *num_lags);"
+   "\n",
+   "void picoquant_get_arm_channels(unsigned char *channels, double *sync, double *times, int num_records, unsigned char *arm1_channels, int arm1_num, unsigned char *arm2_channels, int arm2_num, double *arm1, double *arm2, int *arm1_tally, int *arm2_tally);"
+   "\n",
+   "void picoquant_parse_records(unsigned int *fifo_buffer, int fifo_size, double *photon_times, double *sync, unsigned char *channels, int *photon_count, double *overflow, unsigned char device, unsigned char tmode);"
+   "\n",
+   "void picoquant_photons_in_bins(double *ch1, double *ch2, int num_ch1, int num_ch2, double *lag_bin_edges, int num_edges, int cascade_start, int nper_cascade, double offset_lag, double *acf);"
+   "\n",
+   "\0"
+}

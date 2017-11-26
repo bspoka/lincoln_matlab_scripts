@@ -1,0 +1,39 @@
+-nologo
+-out:c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\corr_funcs.dll
+-def:c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\corr_funcs.dll.defs
+-implib:c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\corr_funcs.lib
+-ignoreexports
+-dependenciesMapFile:c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\dependencies.lnk.in
+-arch:x64
+-timestamp
+-res:c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\resources.res
+-entry:CVIDllMainStartupCode
+-base:0x10000000
+-linked:c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\linkersummary.txt
+-dlldeps:c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\dlldependencies.txt
+-licensing:c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\linkerlicensing.txt
+-browsedeps:c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\picoquant_corr.obj
+-more:c:\program files (x86)\national instruments\cvi2015\bin\msvc64\cvistart.lib
+-more:c:\program files (x86)\national instruments\cvi2015\bin\msvc64\cvi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2015\bin\msvc64\analysis.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc64\cviauto.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc64\cvidotnet.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc64\cvinetstreams.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc64\cvinetv.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc64\cvintwrk.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc64\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\gdi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc64\gpib.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc64\ivi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\kernel32.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc64\nisyscfg.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc64\omp.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\toolslib\toolbox\msvc64\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\uuid.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc64\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\winmm.lib

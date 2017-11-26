@@ -1,0 +1,16 @@
+[picoquant_parse_records]
+Class="Function"
+Prototype="void picoquant_parse_records(unsigned int *fifo_buffer, int fifo_size, double *photon_times, double *sync, unsigned char *channels, int *photon_count, double *overflow, unsigned char device, unsigned char tmode);"
+
+[picoquant_get_arm_channels]
+Class="Function"
+Prototype="void picoquant_get_arm_channels(unsigned char *channels, double *sync, double *times, int num_records, unsigned char *arm1_channels, int arm1_num, unsigned char *arm2_channels, int arm2_num, double *arm1, double *arm2, int *arm1_tally, int *arm2_tally);"
+
+[picoquant_photons_in_bins]
+Class="Function"
+Prototype="void picoquant_photons_in_bins(double *ch1, double *ch2, int num_ch1, int num_ch2, double start_time_ps, double stop_time_ps, double coarseness, double offset_lag_ps, double *acf, double *lags, int *acf_length);"
+
+[picoquant_g2_corr]
+Class="Function"
+Prototype="void picoquant_g2_corr(double *ch1, double *ch2, int num_ch1, int num_ch2, double ps_range, int num_points, double offset_lag_ps, double *acf, double *lags);"
+

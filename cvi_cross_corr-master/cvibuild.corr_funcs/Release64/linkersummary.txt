@@ -1,0 +1,9 @@
+picoquant_corr.obj
+cvistart.lib
+cvi.lib
+kernel32.lib
+user32.lib
+CVI_UP_Product_Dependencies_Private_Object
+EXE Symbol Module
+Exports Module
+Resource Module

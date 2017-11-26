@@ -1,0 +1,7 @@
+LIBRARY corr_funcs
+
+EXPORTS
+picoquant_photons_in_bins
+picoquant_get_arm_channels
+picoquant_parse_records
+picoquant_generate_log_lags

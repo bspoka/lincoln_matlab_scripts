@@ -1,0 +1,6 @@
+-inrc c:\Users\bspoka\Downloads\lvoop_dll-master\cvi_project\cvibuild.corr_funcs\Release\resources.in.rc
+-outrc c:\Users\bspoka\Downloads\lvoop_dll-master\cvi_project\cvibuild.corr_funcs\Release\resources.out.rc
+-inhdef c:\Users\bspoka\Downloads\lvoop_dll-master\cvi_project\cvibuild.corr_funcs\Release\picoquant_corr.h.hdefs
+-outdef c:\Users\bspoka\Downloads\lvoop_dll-master\cvi_project\cvibuild.corr_funcs\Release\corr_funcs.dll.defs
+-indefprot c:\Users\bspoka\Downloads\lvoop_dll-master\cvi_project\cvibuild.corr_funcs\Release\picoquant_corr.obj.cvidefprots
+-dllName corr_funcs.dll

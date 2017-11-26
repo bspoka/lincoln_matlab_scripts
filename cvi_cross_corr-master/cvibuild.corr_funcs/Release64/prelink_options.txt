@@ -1,0 +1,6 @@
+-inrc c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\resources.in.rc
+-outrc c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\resources.out.rc
+-inhdef c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\picoquant_corr.h.hdefs
+-outdef c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\corr_funcs.dll.defs
+-indefprot c:\Users\bspoka\Downloads\t3corr_171027\t3corr\cvi_cross_corr-master\cvibuild.corr_funcs\Release64\picoquant_corr.obj.cvidefprots
+-dllName corr_funcs.dll
