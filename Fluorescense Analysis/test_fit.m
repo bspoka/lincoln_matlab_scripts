@@ -1,6 +1,12 @@
 clear;
 
 data = dlmread('C:\Users\bspoka\Google Drive\Lincoln_Data\Sophie_Boris\Matlab_Scripts\Fluorescense Analysis\SandraLifetimes_processed.dat');
+clf
+hold on
+time = data(:, 1);
+plot(data(:, 2));
+plot(data(:, 3));
+%%
 
 reg = 4300:11500;
 
