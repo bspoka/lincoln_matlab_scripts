@@ -22,6 +22,8 @@ function freq_axis = get_freq_axis(stage_positions, pos_unit, axis_unit)
                     freq_axis = freq;
                 case 'nm'
                     freq_axis = 1E7./freq;
+                case 'mev'
+                    freq_axis = (freq./8065.54)*1000; %%frequency axis in meV
                 otherwise
                     fprintf('Not supported energy scale\n');
                     freq_axis = [];

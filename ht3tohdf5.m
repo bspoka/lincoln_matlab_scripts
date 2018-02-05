@@ -224,7 +224,7 @@ DispCountAxisTo = fread(fid, 1, 'int32');
 for i = 1:8
     DispCurveMapTo(i) = fread(fid, 1, 'int32');
     DispCurveShow(i) = fread(fid, 1, 'int32');
-end;
+end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -232,7 +232,7 @@ for i = 1:3
     ParamStart(i) = fread(fid, 1, 'float');
     ParamStep(i) = fread(fid, 1, 'float');
     ParamEnd(i) = fread(fid, 1, 'float');
-end;
+end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -260,7 +260,7 @@ nModulesPresent = fread(fid, 1, 'int32');
 for i=1:10
     ModelCode(i) = fread(fid, 1, 'int32');
     VersionCode(i) = fread(fid, 1, 'int32');
-end;
+end
 
 BaseResolution = fread(fid, 1, 'double');
 

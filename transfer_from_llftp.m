@@ -1,10 +1,10 @@
 clear all;
-addpath(genpath('C:\Users\bspoka\Google Drive\Lincoln_Data\Sophie_Boris\Matlab_Scripts'));
+addpath(genpath('C:\Users\bspoka\Dropbox (MIT)\LincolnData\Sophie_Boris\Matlab_Scripts'));
 %%%-------------------FTP Settings-------------------%%%
 ll_server = 'ftp.ll.mit.edu';
 ll_login = 'anonymous';
 ll_password = 'shnekElefant';
-ll_root = '/outgoing/Sophie_Boris';
+ll_root = '/outgoing/Sophie_Boris/180124';
 ftp_listing_file = 'ftp_listing.xlsx'; %should be in ll_root
 %%%--------------------------------------------------%%%
 
@@ -18,9 +18,10 @@ close(ll_ftp_handle);
 
 %% Copy all files from directories in the ftp_listing to a local folder
 
-copy_directory = pwd; %default is current directory
+copy_directory = 'C:\Users\bspoka\Dropbox (MIT)\LincolnData\Sophie_Boris'; %default is current directory
 [~,~, ftp_listing] = xlsread(ftp_listing_file);
 
+ll_root = '/outgoing/Sophie_Boris/';
 ll_ftp_handle = ftp(ll_server, ll_login, ll_password);
 pasv(ll_ftp_handle)
 cd(ll_ftp_handle, ll_root);

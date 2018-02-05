@@ -1,0 +1,1 @@
+standard_custom are software-dependent common GUI functions. I.e. they must be edited for each program.
